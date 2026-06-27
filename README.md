@@ -14,7 +14,7 @@ Durante o desenvolvimento foram aplicados conceitos fundamentais do ecossistema 
 
 ## 🚀 Tecnologias Utilizadas
 
-- ☕ Java 21
+- ☕ Java 25
 - 🌱 Spring Boot
 - 🤖 Spring AI
 - 📦 Maven
