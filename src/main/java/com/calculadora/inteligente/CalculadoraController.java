@@ -1,4 +1,4 @@
-﻿package com.calculadora.inteligente;
+package com.calculadora.inteligente;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.web.bind.annotation.GetMapping;
