@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# projeto-santander-spring-ai
-=======
 # Calculadora Inteligente
 
 Projeto Spring Boot que gerencia gastos mensais e integra com um backend de IA via Spring AI.
