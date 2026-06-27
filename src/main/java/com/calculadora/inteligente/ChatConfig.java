@@ -9,8 +9,6 @@ public class ChatConfig {
 
     @Bean
     public ChatClient chatClient(ChatClient.Builder builder) {
-        return builder
-                .defaultFunctions("adicionarGastoTool", "obterGastosTool")
-                .build();
+        return builder.build();
     }
 }
