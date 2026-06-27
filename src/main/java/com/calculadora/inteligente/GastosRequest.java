@@ -1,4 +1,10 @@
 package com.calculadora.inteligente;
 
-public class GastosRequest {
+public record GastosRequest(
+        String nome,
+        double valor,
+        int parcela,
+        int indiceMes
+) {
+
 }

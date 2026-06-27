@@ -2,37 +2,36 @@ package com.calculadora.inteligente;
 
 public class Gasto {
 
-    String nome;
-    double valor;
-    int parcela;
-    int parcelaAtual;
+    private final String nome;
+    private final double valor;
+    private final int parcela;
+    private int parcelaAtual;
 
-    public Gasto(String nome, double valor, int parcela){
+    public Gasto(String nome, double valor, int parcela) {
         this.nome = nome;
         this.valor = valor;
         this.parcela = parcela;
         this.parcelaAtual = 1;
     }
 
-    public String getNome(){
+    public String getNome() {
         return nome;
     }
 
-    public double getValor(){
+    public double getValor() {
         return valor;
     }
 
-    public int getParcelas(){
+    public int getParcelas() {
         return parcela;
     }
 
-    public int getParcelaAtual(){
+    public int getParcelaAtual() {
         return parcelaAtual;
     }
 
     public void avancarParcela() {
         parcelaAtual++;
     }
-
 }
 
