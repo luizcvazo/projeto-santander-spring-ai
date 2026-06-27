@@ -40,6 +40,3 @@ O que aprendi
 Exemplos
 - Requisição curl local:
   curl "http://localhost:8080/chat?mensagem=olá"
-
-Se quiser, incluo prints, exemplos de requisições mais completos, ou instruções para rodar um mock HTTP no porto 11434 para testes automáticos.
->>>>>>> 8243075 (Prepare project for course submission: add README and notes)
