@@ -1,4 +1,5 @@
 package com.calculadora.inteligente;
 
-public record ConsultaMesRequest() {
+public record ConsultaMesRequest(int indiceMes) {
+
 }

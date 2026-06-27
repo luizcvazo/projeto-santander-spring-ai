@@ -1,13 +1,14 @@
 package com.calculadora.inteligente;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Mes {
 
-    String nome;
-    ArrayList<Gasto> gastos;
+    private final String nome;
+    private final ArrayList<Gasto> gastos;
 
-    public Mes(String nome){
+    public Mes(String nome) {
         this.nome = nome;
         this.gastos = new ArrayList<>();
     }
@@ -16,7 +17,7 @@ public class Mes {
         return nome;
     }
 
-    public ArrayList<Gasto> getGastos(){
+    public List<Gasto> getGastos() {
         return gastos;
     }
 
